@@ -1,0 +1,1 @@
+/*Has the initial site layout with search bar.*/
