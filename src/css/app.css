@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+    background-image: url("../images/search-background.jpg");
+    background-repeat: no-repeat;
+    background-color: #d5d5d5;
+    width: 98vw;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.page-title-div{
+    text-align: center;
+    font-size: 2.0rem;
+    background-color: aliceblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 6px 7px rgba(255,255,255,1.0);
+    border: none;
+}
+.page-title{
+   margin-bottom: 0;
+}
+.description{
+    display: block;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+.search-text-box{
+    width: 50%;
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0px 0px 6px 7px rgba(255,255,255,1.0);
+    border: 6px solid rgba(180, 216, 255, 0.501);
+}
+.search-text-box:hover{
+    border: 6px solid rgb(0, 123, 255);
+}
+
+.search-btn{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-size: xx-large;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0px 0px 6px 7px rgba(255,255,255,1.0);
+    border: 6px solid rgba(180, 216, 255, 0.501);
+    opacity: 100%;
+    background-color: rgb(255,255,255);
+}
+
+.search-btn:hover{
+    border: 6px solid rgb(0, 123, 255);
+}
