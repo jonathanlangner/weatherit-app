@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Audacious Weather 
+### Adventurous Weather Fun Every Day.
+
+## Current Screen Shot:
+![picture](initial-layout.png)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
