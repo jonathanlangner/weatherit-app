@@ -1,4 +1,4 @@
-# Audacious Weather 
+# Intrepid Weather 
 ### Adventurous Weather Fun Every Day.
 
 ## Current Screen Shot:
