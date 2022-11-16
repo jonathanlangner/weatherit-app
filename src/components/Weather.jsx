@@ -1,1 +1,0 @@
-/*Makes a request from weather API and renders seven day forecast.*/

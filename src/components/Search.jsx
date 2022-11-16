@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 /*Has the initial site layout with search bar.*/
 const Search = function(){
 
@@ -13,14 +14,21 @@ const Search = function(){
 
     return(
         <div>
-            <div className="page-title-div"><h1 className="page-title">❄️ Intrepid Weather ❄️</h1>
-            <p className="description">Adventurous Weather Fun Every Day.</p>
+            <div className="options">
+              <button className="btn" title="Units: Imperial" > Units: Imperial</button>
+              <button className="btn" title="Units: Metric" > Units: Metric</button>
             </div>
             <form>
+                <input type="submit" value="🔍 Search" id="search-btn" title="Search" />
                 <input type="text" value={value} onClick={handleEmpty} onChange={handleChange} className="search-text-box" title="Search for Town, City, or Airport."
                 />
-                <input type="submit" value="Search" className="search-btn" title="Search" />
+                
             </form>
+            <div className="options">
+              <button type="button" className="btn" title="Current Conditions">Current Conditions</button> 
+              <button type="button" className="btn" title="3 Day Forecast">3 Day Forecast</button>
+            </div>
+            
       </div>
     );
 }
