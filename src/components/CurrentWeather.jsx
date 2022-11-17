@@ -6,6 +6,10 @@ const CurrentWeather = function(){
     return(
         <div>
             <div className="weather">
+                <div className="options">
+                <button className="btn" title="Units: Imperial" > Units: Imperial</button>
+                <button className="btn" title="Units: Metric" > Units: Metric</button>
+                </div>
                 <h2 className="forecast-element">Current Conditions in Tower, Minnesota</h2>
                 <h3 className="forecast-element banner">Thursday, 9 November</h3>
                 <h3 className="forecast-element">20:00</h3> 

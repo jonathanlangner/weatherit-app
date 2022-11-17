@@ -7,6 +7,10 @@ const Forecast = function(){
     return(
         <div>
             <div className="weather-forecast">
+            <div className="options">
+              <button className="btn" title="Units: Imperial" > Units: Imperial</button>
+              <button className="btn" title="Units: Metric" > Units: Metric</button>
+            </div>
                     <h2 className="forecast-element">3 Day Forecast in Tower, Minnesota</h2>
                     <h4 className="forecast-element banner">Thursday, 15 November</h4>
                     <h4 className="forecast-element"> <WiDaySnow /> Snow</h4>
