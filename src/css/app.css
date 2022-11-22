@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-body{
+html {
     background-image: url("../images/search-background.jpg");
     background-position: center;
-    background-repeat: no-repeat;
-    background-color: #d5d5d5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 98vw;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     font-family: 'Source Sans Pro', sans-serif;
 
