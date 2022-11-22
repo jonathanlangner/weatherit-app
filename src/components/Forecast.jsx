@@ -75,7 +75,7 @@ const Forecast = function(weatherData){
     return(
         <div onClick={handleData}>
             <div className="weather-forecast">
-            <h1>Click Here Once you have entered your coordinates and clicked search twice.</h1>
+            <h1>Click here once you have entered your coordinates and clicked search twice.</h1>
                     <h2 className="forecast-element">Forecast in {cityState}</h2>
                     <h4 className="forecast-element banner">{day} </h4>
                     <h4 className="forecast-element"> {detailedForecast} </h4>
